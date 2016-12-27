@@ -1,0 +1,44 @@
+{
+  "name": "test",
+  "version": "0.0.1",
+  "description": "Angular2 Sample Test",
+  "scripts": {
+    "start": "webpack-dev-server --inline --hot --colors --progress",
+    "postinstall": "./node_modules/.bin/typings install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wooodchen/test.git"
+  },
+  "author": "wooodchen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wooodchen/test/issues"
+  },
+  "homepage": "https://github.com/wooodchen/test#readme",
+  "dependencies": {
+    "@angular/common": "~2.3.1",
+    "@angular/compiler": "~2.3.1",
+    "@angular/core": "~2.3.1",
+    "@angular/forms": "~2.3.1",
+    "@angular/http": "~2.3.1",
+    "@angular/platform-browser": "~2.3.1",
+    "@angular/platform-browser-dynamic": "~2.3.1",
+    "@angular/router": "~3.3.1",
+    "@angular/upgrade": "~2.3.1",
+
+    "angular-in-memory-web-api": "~0.1.5",
+    "core-js": "^2.4.1",
+    "reflect-metadata": "^0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "zone.js": "^0.6.25"
+  },
+  "devDependencies": {
+    "ts-loader": "^0.8.2",
+    "typescript": "^2.1.4",
+    "typings": "^2.0.0",
+    "path": "^0.12.7",
+    "webpack": "^1.13.2",
+    "webpack-dev-server": "^1.16.1"
+  }
+}
